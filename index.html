@@ -6,27 +6,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&display=swap" rel="stylesheet">
 
 <style>
 :root{--spacing:48px;}
-body,h1,a {font-family:'IBM Plex Sans',sans-serif; color:whitesmoke;}
-body,html {height: 100%;}
+body,h1,a {font-family:'IBM Plex Sans',sans-serif; font-weight:200; color:whitesmoke;}
+body,html {height:100%;}
 h1 {font-size:5em; margin-bottom:0.4em;}
-p {font-size: 1.5em; margin-top:0; margin-left: 0.1em;}
-body {background: url('images/17_holding_image_01.jpg'); background-size:cover; margin:var(--spacing);}
+@media (max-width:1250px) {
+    h1 {font-size:3em; margin-bottom:0.4em;}
+    }
+p {font-size:1.8em; margin-top:0; margin-left:0.1em; font-weight:400;}
+body {background:url('images/17_holding_image_01.jpg'); background-size:cover; margin:var(--spacing);}
 header {display:block;}
-main {display:flex; flex-direction:column; align-items:left; justify-content:center;  height:26vh;}
-footer {font-size: 0.5em; position:absolute; bottom:var(--spacing);}
+main {display:flex; flex-direction:column; align-items:left; justify-content:center; height:26vh;}
+footer {position:absolute; bottom:var(--spacing); font-size:0.7em;}
 </style>
 </head>
 
 <body>
 <header>
-    <img src="images/17-logo.svg" width="120" alt="">
+    <img src="images/17-logo.svg" width="120" alt="17.eco">
 </header>
 <main>
     <span><h1>renewable energy, unleashed</h1></span>
+    <span><p>Solving curtailment & transmission congestion by making clean energy transportable.</p></span>
 </main>
 <footer>
     <span>Image: <a href="https://unsplash.com/@karsten_wuerth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Karsten Wuerth</a></span> 
